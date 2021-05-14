@@ -1,0 +1,71 @@
+* {
+  border: solid;
+}
+.box {
+  height: 250px;
+  overflow: hidden;
+}
+.box div {
+  overflow: hidden;
+}
+.box > div {
+  background: red;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border-color: red;
+}
+.box > div > div {
+  background: green;
+  height: 480px;
+  width: 480px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: green;
+}
+.box > div > div > div {
+  background: blue;
+  height: 460px;
+  width: 460px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: blue;
+}
+.box > div > div > div > div {
+  background: yellow;
+  height: 440px;
+  width: 440px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: yellow;
+}
+.box > div > div > div > div > div {
+  background: indigo;
+  height: 420px;
+  width: 420px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: indigo;
+}
+.box > div > div > div > div > div > div {
+  background: paleturquoise;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: paleturquoise;
+}
+.box > div > div > div > div > div > div > div {
+  background: white;
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-color: white;
+}
